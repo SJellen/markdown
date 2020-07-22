@@ -94,3 +94,33 @@ textarea {
   overflow: scroll;
   background-color: #1f4068;
 }
+
+@media only screen and (max-width: 950px) {
+  #editor-container {
+    width: 75%;
+  }
+  #preview-container {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #editor-container {
+    width: 85%;
+  }
+  #preview-container {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #editor-container {
+    width: 95%;
+  }
+  #preview-container {
+    width: 95%;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+}
