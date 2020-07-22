@@ -1,28 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=Roboto&display=swap');
+
+
+
 .App {
   text-align: center;
 }
 
 body {
-  background-color: burlywood;
+  background-color: #3282b8;
 }
 
 .title {
   text-align: center;
+  
 }
 
-p {
-  text-align: center;
+.header {
+  width: 100vw;
+  background-color: #1f4068;
+  color: white;
+  padding: .25rem 0;
+  box-shadow: 0px 0px 2px #1b1b2f;
+  text-align: right;
+  font-family: 'Open Sans', sans-serif;
 }
 
-#editor-bar, #preview-bar {
+p, h1, h2 {
   text-align: center;
+  
+}
+
+li {
+  margin-left: 5rem;
+}
+
+#preview-bar {
+  text-align: center;
+  background-color: #1f4068;
+  color: white;
+  padding: .5rem 0;
+  min-width: 100%;
+}
+
+#editor-bar {
+  background-color: #1f4068;
+  color: white;
+  min-width: 100%;
+  margin: 0 auto -2rem auto;
+  text-align: center;
+  padding: .5rem 0;
+  position: absolute;
+  z-index: 99;
+  
 }
 
 #preview-container {
-  background-color: deepskyblue;
+  background-color: rgba(187, 225, 250, 1);
   width: 50%;
-  margin: 0 auto;
-  
+  margin: 0 auto 4rem auto;
+  box-shadow: 2px 2px 5px #1b1b2f;
+  font-family: 'Roboto', sans-serif;
+  z-index: 99;
+  position: relative;
+  overflow: scroll;
 }
 
 #preview {
@@ -30,10 +70,27 @@ p {
   padding: 1rem;
 }
 
+a:link {
+  color: inherit;
+}
+
+
 
 
 textarea {
-  margin: 2rem 25%;
-  width: 50%;
+  margin: 2rem auto;
+  padding: 0 .45rem;
+  
 }
 
+
+#editor-container {
+  width: 50%;
+  margin: 2rem auto;
+  height: 337px;
+  box-shadow: 1px 1px 5px #1b1b2f;
+  z-index: 99;
+  position: relative;
+  overflow: scroll;
+  background-color: #1f4068;
+}

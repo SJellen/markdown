@@ -33,9 +33,9 @@ If you would like to include a  block-quote:
 
 Here how you would list the Academy Awards won by Casablanca:
 
-                      * Outstanding Motion Picture
-                      * Best Director
-                      * Best Writing, Screenplay
+*                Outstanding Motion Picture
+*                Best Director
+*                Best Writing, Screenplay
 
 Text can be bold if you think it is **really important**.
 
@@ -63,9 +63,9 @@ Here is how to show an image:
     return (
       <div id="container">
         <div id="content">
-          <div id="header">
+          <div id="header" className="header">
             <h1 className="title">Markdown Previewer</h1>
-           <p>Learn more about markdown <a href="https://guides.github.com/features/mastering-markdown/" target="_blank" rel="noopener noreferrer">here</a>.</p>
+           <p className="subtitle">Learn more about markdown <a href="https://guides.github.com/features/mastering-markdown/" target="_blank" rel="noopener noreferrer">here</a>.</p>
           </div>
           <Editor 
             
@@ -93,7 +93,7 @@ const Editor = (props) => {
       <textarea 
         id="editor"
         rows="20"
-        cols="90"
+        cols="86"
         onKeyUp={props.handleUpdateEditor}>{props.text}</textarea>
     </div>
   );    
