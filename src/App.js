@@ -13,35 +13,35 @@ class App extends React.Component {
     super(props);
     this.state = { 
       inputText: `
-# Header
+#                 Header
 
-## Subheading
+##                Subheading
 
-This is [a link](https://www.wildlifetrusts.org/wildlife-explorer/mammals/european-badger) .
+This is [a link](https://www.themoviedb.org/movie/289-casablanca) .
 
-Perhaps you\'d be more interested in seeing some inline code: \`<div>Check out this code</div>\`
+This is how you do inline code: \`<div>Check out this code</div>\`
 
-Here is a bit more code:
+Here is multi-line code:
 
 \`\`\`
-<h1>Hello, World!</h1>
-<p>Welcome to my lovely code block</p>
+                  <h1>Hello, World!</h1>
+                  <p>Welcome to my lovely code block</p>
 \`\`\`
 
-Sometimes you might want to include a block-quote, and as Roosevelt once said:
-> Markdown is, in a sense, no different from magic.
+If you would like to include a  block-quote:
+> Rick: Ilsa, I'm no good at being noble, but it doesn't take much to see that the problems of three little people don't amount to a hill of beans in this crazy world. Someday you'll understand that.
 
-At this stage in the proceedings, I like to throw in a list of the reasons why badgers are great:
+Here how you would list the Academy Awards won by Casablanca:
 
-* Snuffling sounds
-* Seriously, just look at their cute little faces!
-* They look great wearing a monocle
+                      * Outstanding Motion Picture
+                      * Best Director
+                      * Best Writing, Screenplay
 
 Text can be bold if you think it is **really important**.
 
-And finally, here's a picture of a badger:
+Here is how to show an image:
 
-![badger shot](https://raw.githubusercontent.com/paul-duvall/website_images/master/badger.jpg)
+![badger shot](https://www.telegraph.co.uk/content/dam/films/2016/04/15/casablanca_2408202a_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwfSVWeZ_vEN7c6bHu2jJnT8.jpg?imwidth=450)
 
 `
     };
