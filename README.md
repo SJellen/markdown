@@ -3,18 +3,7 @@
 
 ![screenshot](https://github.com/SJellen/markdown/blob/master/ScreenShot.png)
 
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://twitter.com/scottjellen" target="_blank">
-    <img alt="Twitter: scottjellen" src="https://img.shields.io/twitter/follow/scottjellen.svg?style=social" />
-  </a>
-</p>
-
 > A react markdown previewer.
-
-### 🏠 [Homepage](https://markdown-pearl.vercel.app/)
-
-### ✨ [Demo](https://markdown-pearl.vercel.app/)
 
 ## Install
 
@@ -38,9 +27,6 @@ npm run test
 
 👤 **Scott Jellen**
 
-* Website: ScottJellen.com
-* Twitter: [@scottjellen](https://twitter.com/scottjellen)
-* Github: [@SJellen](https://github.com/SJellen)
 
 ## Show your support
 
